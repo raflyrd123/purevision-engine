@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+tensorflow
+tensorflow-hub
+Pillow
+numpy
+requests
+supabase
+pydantic
