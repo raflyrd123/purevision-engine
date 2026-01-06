@@ -83,8 +83,8 @@ export default function Home() {
       setStatus("Sedang meningkatkan kualitas gambar...");
 
       try {
-        const response = await fetch("http://localhost:8000/upscale", {
-          method: "POST",
+const response = await fetch("https://raflyrd123-purevision-backend.hf.space/upscale", { 
+  method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ image_url: publicUrl, file_name: fileName })
         });
